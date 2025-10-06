@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api", // backend URL
+  baseURL: "https://openshare-2.onrender.com/api", // 👈 your Render backend URL
 });
 
 // Add token to request if exists
